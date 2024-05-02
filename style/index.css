@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 40px grey;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.FormDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(163, 161, 161);
+    outline: none;
+}
+
+textarea{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(163, 161, 161);
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(100, 99, 99);
+}
+
+button{
+    background-color: grey;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
